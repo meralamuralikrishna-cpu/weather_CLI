@@ -13,13 +13,13 @@ This project is beginner-friendly and demonstrates:
 
 ## 🚀 Features
 
-* 🌡️ Temperature & *feels like* (in °C)
-* ☁️ Weather condition
-* 💧 Humidity
-* 💨 Wind speed (km/h)
-* 🔽 Atmospheric pressure
-* 👁️ Visibility
-* 🌅 Sunrise & 🌇 Sunset time
+*  Temperature & *feels like* (in °C)
+*  Weather condition
+*  Humidity
+*  Wind speed (km/h)
+*  Atmospheric pressure
+*  Visibility
+*  Sunrise &  Sunset time
 
 ---
 
@@ -32,7 +32,7 @@ This project is beginner-friendly and demonstrates:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1️⃣ Clone the repository
 
@@ -49,7 +49,7 @@ pip install requests python-dotenv
 
 ---
 
-## 🔐 API Key Setup (IMPORTANT)
+##  API Key Setup (IMPORTANT)
 
 1. Create an account at **OpenWeatherMap**
 2. Generate an API key
@@ -59,17 +59,10 @@ pip install requests python-dotenv
 API_KEY=your_openweathermap_api_key_here
 ```
 
-⚠️ **Do NOT commit `.env` to GitHub**
-
-Add this to `.gitignore`:
-
-```gitignore
-.env
-```
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the script:
 
@@ -77,23 +70,23 @@ Run the script:
 python weather.py
 ```
 
-### 📌 Sample Output
+###  Sample Output
 
 ```
-🌤️ Weather for Tirupati
-🌡️ Temperature: 29.45°C (Feels like 31.20°C)
-☁️ Condition: Clouds
-💧 Humidity: 68%
-💨 Wind: 10.8 km/h
-🔽 Pressure: 1012 hPa
-👁️ Visibility: 6000 m
-🌅 Sunrise: 06:22 AM
-🌇 Sunset: 06:01 PM
+ Weather for Tirupati
+ Temperature: 29.45°C (Feels like 31.20°C)
+ Condition: Clouds
+ Humidity: 68%
+ Wind: 10.8 km/h
+ Pressure: 1012 hPa
+ Visibility: 6000 m
+ Sunrise: 06:22 AM
+ Sunset: 06:01 PM
 ```
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 weather-cli/
@@ -105,7 +98,7 @@ weather-cli/
 
 ---
 
-## 🌍 Customization
+##  Customization
 
 * Change the **CITY_ID** to get weather for another city
 * Add forecast endpoint (`/forecast`) for future weather
@@ -113,13 +106,13 @@ weather-cli/
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and free to use for learning purposes.
 
 ---
 
-## 🙌 Author
+##  Author
 
 **Murali Krishna Merala**
 Diploma in AI & ML | Python & AIML Learner
